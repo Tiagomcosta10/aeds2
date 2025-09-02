@@ -1,0 +1,1 @@
+os metodos de inserir nas tads recebem o elemento a ser inserido. Os de remoção retornam o elemento removido.
