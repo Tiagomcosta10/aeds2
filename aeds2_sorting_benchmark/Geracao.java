@@ -57,4 +57,9 @@ class Geracao {
    public void sort(){
       System.out.println("Método a ser implementado nas subclasses.");
    }
+
+   public void mostrar() {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'mostrar'");
+   }
 }
