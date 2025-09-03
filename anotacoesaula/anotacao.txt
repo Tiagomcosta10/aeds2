@@ -1,1 +1,60 @@
-os metodos de inserir nas tads recebem o elemento a ser inserido. Os de remoção retornam o elemento removido.
+Unidade 1A
+
+Calcule o número de multiplicações que o código abaixo realiza:
+...
+for (int i = n; i > 0; i /= 2){
+a *= 2;
+} 
+quando é assim é lg(n) + 1 vezes
+
+Faça um método que receba um número inteiro n e efetue o número de
+subtrações pedido em:
+a) 3n + 2n²
+i = 0
+while (i<n){
+    i++;
+}
+for (i = 0; i < n; i++){
+for (j = 0; j < n; j++){
+a--; b--;
+}
+}
+
+
+b) 5n + 4n³
+i = 0;
+while(i<n){
+    i++;
+a--; b--; c--;}
+for(i=0; i<n;i++){
+for(j=0; j<n;j++){
+for(k=0; k<n;k++){
+    a--;b--;c--;d--;
+}}}
+
+
+c) lg(n) + n
+for(i=0; i<n; i/=2){
+    a--;
+}
+for(i=0; i<n;i++){a--;}
+
+03/09
+exercicio
+pesquise o que significa deck e como funcona sua estrutura em seguida implemente os dois metodos de inserção e os dois de remoção
+
+modifique a classe lista para garantir que os elementos estão ordenados
+
+e a ultima, inserções 
+
+o +1 n construtor da fc proporciona a remoção de um if nos metodos de inserção e remoção na fc. 
+exercicio 
+modifique a classe fc de tal forma que o construtor não tenha o +1
+O +1 do construtor otimiza o código, contudo, o nosso código vai garantir que o tamanho da fila será o solicitado pelo usuario. ou seja,não usaremos uma posição alocada 
+
+Inialmente primeiro e ultimo são  iguais e essa é a condição da fc estar vazia
+
+
+
+
+
