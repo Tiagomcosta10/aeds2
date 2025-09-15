@@ -53,8 +53,10 @@ modifique a classe fc de tal forma que o construtor não tenha o +1
 O +1 do construtor otimiza o código, contudo, o nosso código vai garantir que o tamanho da fila será o solicitado pelo usuario. ou seja,não usaremos uma posição alocada 
 
 Inialmente primeiro e ultimo são  iguais e essa é a condição da fc estar vazia
-
-
-
+0809
+o prmeiro clausula do caso um termo da inserção serve apenas para garantir que não acessaremos posições negativas na segunda clausula.
+logo as duas clausulas não podem ser invertidas 
+o laço interno do inserção faz duas tarefas. Primeiro ele compara o novo elemento  a ser inserido tmp com o atua. Segundo, ele desloca para cima o elemento maior que temp. 
+no inserção a variavel i aponta para a posição que vamos inserir no conjunto ordenado. a variavel j começa na maior posição do conjunto ordenado e será decrementadas enquanto array de j for maior q temp
 
 
